@@ -1,0 +1,160 @@
+.pricing .container {
+  padding-top: 85.5px;
+  padding-bottom: 50px;
+}
+
+.pricing-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pricing-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-list {
+  display: flex;
+  gap: 72px;
+}
+
+.pricing-list-item {
+  padding: 32px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  width: calc((100% - 144px) / 3);
+}
+
+.pricing-list-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.pricing-list-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.includes-price-span {
+  display: flex;
+}
+
+.price-span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+  margin-right: 7px;
+}
+
+.price-sign {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.price-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.price-contaainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pricing-list-includes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.pricing-list-includes-item {
+  margin-bottom: 16px;
+}
+
+.pricing-list-includes-item:last-child {
+  margin-bottom: 0;
+}
+
+.includes-price-span {
+  margin-bottom: 16px;
+}
+
+.includes-span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+
+.pricing-btn {
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pricing-list-item:hover,
+.pricing-list-item:focus {
+  background-color: #02897a;
+}
+
+.pricing-list-item:hover .pricing-list-title,
+.pricing-list-item:focus .pricing-list-title,
+.pricing-list-item:hover .pricing-list-text,
+.pricing-list-item:focus .pricing-list-text,
+.pricing-list-item:hover .includes-price-span,
+.pricing-list-item:focus .includes-price-span,
+.pricing-list-item:hover .includes-span,
+.pricing-list-item:focus .includes-span,
+.pricing-list-item:hover .price-span,
+.pricing-list-item:focus .price-span,
+.pricing-list-item:hover .price-sign,
+.pricing-list-item:focus .price-sign,
+.pricing-list-item:hover .price-text,
+.pricing-list-item:focus .price-text {
+  color: #fff;
+}
+
+.pricing-list-item:hover .pricing-btn,
+.pricing-list-item:focus .pricing-btn {
+  background-color: #fff;
+  color: #02897a;
+}

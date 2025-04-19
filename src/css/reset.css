@@ -8,27 +8,25 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
+ol,
 ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
+  border: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
 }

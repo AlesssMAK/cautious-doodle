@@ -1,0 +1,41 @@
+.customer-text-container {
+  width: 450.77px;
+  height: 419px;
+}
+
+.customer-text {
+  width: 385.65px;
+  height: 52px;
+}
+
+.customer-list-item {
+  display: flex;
+  gap: 30.06px;
+  align-items: center;
+}
+
+.customer-icon {
+  fill: #fff;
+}
+
+.customer-icon-background {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+}
+
+.customer-icon-background-one {
+  background-color: #f90;
+}
+
+.customer-icon-background-two {
+  background-color: #f03e3d;
+}
+
+.customer-icon-background-three {
+  background-color: #4d8dff;
+}
