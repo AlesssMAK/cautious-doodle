@@ -11,6 +11,7 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./product.css');
 @import url('./crm.css');
 @import url('./management.css');
 @import url('./customer.css');
